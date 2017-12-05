@@ -13,10 +13,10 @@ import StudentReducer from './StudentReducer';
 
 // build the root reducer, using combinereducers which we imported from redux
 // combineReducers takes 1arg, an object
-const rootReducer = combineReducers({
+const rootReducers = combineReducers({
 	// the name of the state will be the property used by react
 	// the value will be the reducer file import
 	students: StudentReducer
 })
 
-export default rootReducer;
+export default rootReducers;
